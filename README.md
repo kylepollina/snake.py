@@ -1,2 +1,2 @@
 # snake.py
-Snake game made with Python
+Snake game made with Python and Pygame
