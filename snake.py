@@ -122,7 +122,6 @@ class Body(pygame.sprite.Sprite):
         self.rect = self.image.get_rect()
         self.rect.topleft = (x, y)
     
-
 class Apple(pygame.sprite.Sprite):
 
     def __init__(self):
@@ -153,8 +152,6 @@ class Apple(pygame.sprite.Sprite):
             self.rect.x = x_new 
             self.rect.y = y_new
 
-
-
 def reset():
     global snake
     global apple
@@ -164,12 +161,9 @@ def reset():
     all_sprites.add(apple, snake)
     snake.reset()
     apple.new_loc()
-    
 
 def game_over():
     global state
-
-
 
     menu_x = WIDTH / 2 - 100
     menu_y = HEIGHT / 2 - 40
