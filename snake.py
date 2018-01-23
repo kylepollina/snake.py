@@ -1,4 +1,4 @@
-#"My Game" Snake game made with Pygame
+# Snake game made with Pygame
 # Author: Kyle Pollina
 import pygame
 import random
